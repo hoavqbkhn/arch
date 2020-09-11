@@ -1,0 +1,11 @@
+prefix=/home/ttdk/Desktop/comedilib
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Comedilib
+Description: Comedi Library
+Requires: 
+Version: 0.12.0
+Libs: -L${libdir} -lcomedi -lm
+Cflags: -I${includedir}

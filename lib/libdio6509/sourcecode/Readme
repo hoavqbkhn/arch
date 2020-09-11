@@ -1,0 +1,9 @@
+LibDio6509 is userspace library to use NI DIO-6509
+
+Build step:
+B1: mkdir build && cd build && mkdir output
+B2: cmake -DCMAKE_INSTALL_PREFIX:PATH=./output ..
+B3: make
+B4: make install
+
+Output of library will be installed to output folder

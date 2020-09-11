@@ -1,0 +1,10 @@
+*.pro.user*
+*.TMP*
+build*
+log/
+run_socat.sh
+dock*
+archlib*/
+arch_libs/
+sourcecode/.qmake.stash
+*/Makefile
